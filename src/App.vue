@@ -1,17 +1,9 @@
 <script setup>
-
-import TheHeader from './components/TheHeader.vue'
+import { RouterView } from 'vue-router';
+import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <TheHeader/>
-      <nav>
-      
-      </nav>
-    </div>
-  </header>
-
+  <TheHeader/>
   <RouterView />
 </template>
