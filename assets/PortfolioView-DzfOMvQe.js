@@ -1,0 +1,1 @@
+import{_ as o,c as e,o as t}from"./index-hfrshGI8.js";const c={},r={class:"container mx-auto px-4"};function n(s,a){return t(),e("div",r," Portfolio ")}const i=o(c,[["render",n]]);export{i as default};
