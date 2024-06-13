@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPack: '/vitallios__portfolio/',
+  base: '/vitallios__portfolio',
   plugins: [
     vue(),
   ],
