@@ -1,5 +1,4 @@
 <script setup>
-import logo from './header_components/logo.vue'
 import HeaderMenu from './header_components/menu.vue'
 </script>
 
@@ -8,8 +7,6 @@ import HeaderMenu from './header_components/menu.vue'
   <div class="container mx-auto px-2">
    <!-- Header -->
     <div class="flex justify-between items-center">
-     <!-- Logo -->
-     <logo/>
      <!-- Menu -->
      <HeaderMenu/>
     </div>
