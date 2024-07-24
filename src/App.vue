@@ -9,7 +9,7 @@ import TheFooter from './components/TheFooter.vue';
 </script>
 
 <template>
-  <div class="bg-[url('./src/assets/backgraund.webp')] w-full h-full bg-cover min-h-screen bg-no-repeat relative">
+  <div class="bg-[url('./public/backgraund.webp')] w-full h-full bg-cover min-h-screen bg-no-repeat relative">
     <div class="container">
       <TheHeader/>
       <TheHome/>
