@@ -39,11 +39,11 @@ const skills = [
    <li 
    v-for="(item, i) of skills" 
    :key="item.id" 
-   class="rounded  overflow-hidden h-[300px]"  
+   class="rounded  overflow-hidden h-[440px]"  
    :class="(`${i}` == '1' || `${i}` == '3' || `${i}` == 4) ? ' col-span-2' : ''"
    >
      <h2>{{ item.title }}</h2>
-     <img :src=item.img alt="Image" class=" w-full h-full bg-cover object-cover">
+     <img :src=item.img alt="Image" class=" w-full h-full bg-cover object-fill">
      <p>{{ item.descrip }}</p>
    </li>
   </ul>
